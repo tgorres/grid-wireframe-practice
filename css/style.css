@@ -13,72 +13,66 @@
         ". . . . ."
         ". header header header ."
         ". aside-one aside-one aside-one ."
-        ". . column-one . ."
-        ". . column-two . ."
-        ". . column-three . ."
+        ". column-one column-one column-one ."
+        ". column-two column-two column-two ."
+        ". column-three column-three column-three ."
         ". aside-two aside-two aside-two ."
         ". footer footer footer ."
         ". . . . .";
-    /* border: 5px solid black; */
 }
 p {
     color: white;
 }
 .header {
-    /* display: grid; */
     grid-area: header;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #9c1b63;
     font-size: 24px;
     text-align: center;
     border-radius: 7px;
-
 }
 .aside-one {
-    /* display: grid; */
     grid-area: aside-one;
+    margin-bottom: 10px;
     background-color: #116395;
     font-size: 24px;
     text-align: center;
     border-radius: 7px;
 }
 .column-one {
-    /* display: grid; */
     grid-area: column-one;
     background-color: #e4195b;
     font-size: 24px;
     text-align: center;
-    border-radius: 7px;
-    /* border: 10px solid #26b67b; */
+    border: 10px solid #26b67b;
 }
 .column-two {
-    /* display: grid; */
     grid-area: column-two;
     background-color: #e4195b;
     font-size: 24px;
     text-align: center;
-    border-radius: 7px;
-    /* border: 10px solid #26b67b; */
+    border: 10px solid #26b67b;
 }
 .column-three {
-    /* display: grid; */
     grid-area: column-three;
     background-color: #e4195b;
     font-size: 24px;
     text-align: center;
-    border-radius: 7px;
-    /* border: 10px solid #26b67b; */
+    border: 10px solid #26b67b;
 }
 .aside-two {
-    /* display: grid; */
     grid-area: aside-two;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #25a4b5;
     font-size: 24px;
     text-align: center;
     border-radius: 7px;
 }
 .footer {
-    /* display: grid; */
     grid-area: footer;
+    margin-bottom: 10px;
     background-color: #e06b26;
     font-size: 24px;
     text-align: center;
