@@ -85,7 +85,33 @@
     line-height: 110px;
     border-radius: 7px;
 }
+.article {
+    color: #b1b5be;
+}
 
-/* @media(min-width: 1025px) {
-
-} */
+@media(min-width: 1025px) {
+    .grid-container {
+        grid-template-columns: repeat (5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "header header header header header"
+            "aside-one article article article aside-two"
+            "aside-one column-one column-two column-three aside-two"
+            "footer footer footer footer footer";
+    }
+    .header {
+        width: 90%;
+        justify-self: center;
+    }
+    .aside-one {
+        width: 90%;
+        justify-self: center;
+    }
+    .article {
+        grid-area: article;
+        width: 90%;
+        justify-self: center;
+        color: white;
+        background-color: #26b67b;
+    } 
+}
