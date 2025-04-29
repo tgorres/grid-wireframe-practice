@@ -109,9 +109,13 @@
     }
     .article {
         grid-area: article;
-        width: 90%;
+        width: 100%;
         justify-self: center;
         color: white;
         background-color: #26b67b;
     } 
+    .aside-two {
+        width: 90%;
+        justify-self: center;
+    }
 }
