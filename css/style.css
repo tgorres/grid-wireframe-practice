@@ -100,22 +100,55 @@
             "footer footer footer footer footer";
     }
     .header {
-        width: 90%;
+        margin-top: 5%;
+        width: 98%;
         justify-self: center;
+        font-size: 40px;
     }
     .aside-one {
         width: 90%;
         justify-self: center;
+        font-size: 40px;
     }
     .article {
         grid-area: article;
+        height: 198%;
         width: 100%;
         justify-self: center;
         color: white;
         background-color: #26b67b;
+        border-radius: 7px;
+        text-align: center;
+        font-size: 40px;
     } 
     .aside-two {
         width: 90%;
         justify-self: center;
+        font-size: 40px;
     }
+    .column-one {
+        height: 90%;
+        border-radius: 7px;
+        font-size: 30px;
+    }
+    .column-two {
+        height: 90%;
+        font-size: 30px;
+    }
+    .column-three {
+        height: 90%;
+        border-radius: 7px;
+        font-size: 30px;
+    }
+    .aside-two {
+        width: 90%;
+        justify-self: center;
+        margin-top: 2px;
+    }
+    .footer {
+        margin-bottom: 5%;
+        width: 98%;
+        justify-self: center;
+        font-size: 40px;    
+    } 
 }
